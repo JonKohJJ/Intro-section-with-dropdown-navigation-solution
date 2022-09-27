@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <div class="body-wrapper">
+
+    <section class="navbar">
+      <div class="container">
+        <img src="./images/logo.svg" alt="" class="logo">
+
+        <div class="navlinks">
+
+          <div class="close-div">
+            <img src="./images/icon-close-menu.svg" alt="" class="close">
+          </div>
+          
+          <div class="navlinks-left">
+            <div class="navitem">
+              <p>Features</p>
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <div class="dropdown-div features">
+              <div class="dropdown-item"><img src="./images/icon-todo.svg" alt="">Todo List</div>
+              <div class="dropdown-item"><img src="./images/icon-calendar.svg" alt="">Calendar</div>
+              <div class="dropdown-item"><img src="./images/icon-reminders.svg" alt="">Reminders</div>
+              <div class="dropdown-item"><img src="./images/icon-planning.svg" alt="">Planning</div>
+            </div>
+            <div class="navitem">
+              <p>Company</p>
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <div class="dropdown-div company">
+              <div class="dropdown-item">History</div>
+              <div class="dropdown-item">Our Team</div>
+              <div class="dropdown-item">Blog</div>
+            </div>
+            <div class="navitem">Careers</div>
+            <div class="navitem">About</div>
+          </div>
+
+          <div class="navlinks-right">
+            <div class="navitem">Login</div>
+            <div class="navitem button">Register</div>
+          </div>
+
+        </div>
+
+        <div class="burger">
+          <img src="./images/icon-menu.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="left">
+          <div class="above-client">
+            <h1>Make remote work</h1>
+            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+            <p>Learn more</p>
+          </div>
+          <div class="clients">
+            <img src="./images/client-databiz.svg" alt="">
+            <img src="./images/client-audiophile.svg" alt="">
+            <img src="./images/client-meet.svg" alt="">
+            <img src="./images/client-maker.svg" alt="">
+          </div>
+        </div>
+
+        <div class="right">
+          <img src="./images/image-hero-mobile.png" alt="" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+  </div>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
