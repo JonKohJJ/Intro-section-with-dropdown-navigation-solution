@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://github.com/JonKohJJ/Intro-section-with-dropdown-navigation-solution](https://github.com/JonKohJJ/Intro-section-with-dropdown-navigation-solution)
+- Live Site URL: [https://jonkohjj.github.io/Intro-section-with-dropdown-navigation-solution/](https://jonkohjj.github.io/Intro-section-with-dropdown-navigation-solution/)
 
 ### Built with
 
